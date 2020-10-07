@@ -1,10 +1,14 @@
 import React from 'react';
-import CounterCountainer from './containers/CounterContainer';
+import Counter from './components/Counter';
+import TodoInsert from './components/TodoInsert';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
     <div className="App">
-      <CounterCountainer/>
+      <Counter/>
+      <TodoInsert/>
+      <TodoList/>
     </div>
   );
 }

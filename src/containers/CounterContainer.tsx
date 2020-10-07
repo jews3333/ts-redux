@@ -21,10 +21,10 @@ function CounterContainer(){
         dispatch(increaseBy(diff));
     }
 
-
-    return (
-        <Counter count={count} onIncrease={onIncrease} onDecrease={onDecrease} onIncreaseBy={onIncreaseBy} />
-    );
+    // hooks를 사용해도 되고 기존대로 container 사용해도 됨.
+    // return (
+    //     <Counter count={count} onIncrease={onIncrease} onDecrease={onDecrease} onIncreaseBy={onIncreaseBy} />
+    // );
 }
 
 export default CounterContainer;
